@@ -23,17 +23,17 @@
     <link href="../css/ModelPopUp.css" rel="stylesheet" />
     <link href="../css/jQ-UI-Dialog.css" rel="stylesheet" />
  
-  <%--    <script src="../Scripts/vendor/jquery-1.11.2.min.js" type="text/javascript"></script>
+      <script src="../Scripts/vendor/jquery-1.11.2.min.js" type="text/javascript"></script>
     <script src="../Scripts/jquery-ui.js" type="text/javascript"></script>
     <script src="../Scripts/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
   
     <script src="../Scripts/jquery.tablesorter.min.js" type="text/javascript"></script>
 <script src="../Scripts/Webform/jquery.blockUI.js" type="text/javascript"></script>
-<script src="../Scripts/Common.js" type="text/javascript"></script>
-<script src="../Scripts/Pagemethods.js" type="text/javascript"></script>
-<script src="../Scripts/vendor/modernizr-2.8.3.min.js" type="text/javascript"></script>--%>
+<script src="Scripts/Common.js" type="text/javascript"></script>
+<script src="Scripts/Pagemethods.js" type="text/javascript"></script>
+<script src="Scripts/vendor/modernizr-2.8.3.min.js" type="text/javascript"></script>
 
-        <script src="/opt/app-root/src/Scripts/vendor/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <%--    <script src="/opt/app-root/src/Scripts/vendor/jquery-1.11.2.min.js" type="text/javascript"></script>
     <script src="/opt/app-root/src/Scripts/jquery-ui.js" type="text/javascript"></script>
     <script src="/opt/app-root/src/Scripts/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
   
@@ -41,7 +41,7 @@
 <script src="/opt/app-root/src/Scripts/Webform/jquery.blockUI.js" type="text/javascript"></script>
 <script src="/opt/app-root/src/Scripts/Common.js" type="text/javascript"></script>
 <script src="/opt/app-root/src/Scripts/Pagemethods.js" type="text/javascript"></script>
-<script src="/opt/app-root/src/Scripts/vendor/modernizr-2.8.3.min.js" type="text/javascript"></script>
+<script src="/opt/app-root/src/Scripts/vendor/modernizr-2.8.3.min.js" type="text/javascript"></script>--%>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -152,11 +152,12 @@
     </script>
     <div id="dialog-message"></div>
 
-<%--        <script src="../Scripts/plugins.js" type="text/javascript"></script>
-        <script src="../Scripts/main.js"" type="text/javascript"></script>--%>
-    /opt/app-root/src
-     <script src="/opt/app-root/src/Scripts/plugins.js" type="text/javascript"></script>
-        <script src="/opt/app-root/src/Scripts/main.js"" type="text/javascript"></script>
+        <script src="Scripts/plugins.js" type="text/javascript"></script>
+        <script src="Scripts/main.js"" type="text/javascript"></script>
+  
+    <%--   <script src="/opt/app-root/src/Scripts/plugins.js" type="text/javascript"></script>
+        <script src="/opt/app-root/src/Scripts/main.js"" type="text/javascript"></script>--%>
+
 </body>
 
 
